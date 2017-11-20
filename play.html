@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Play</title>
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+    </head>
+    <body>
+        <div id="content">
+            <label class="upload">
+                <input type="file" id="thefile" accept="audio/*"/>
+                <span>Choose File...</span>
+            </label>
+            
+            <canvas id="canvas"></canvas>
+            
+            <audio id="audio" controls autoplay="true"></audio>
+        </div>
+        
+        <div class="container music-list-container">
+            <div>
+                <ol id="music-list">
+                    
+                </ol>
+            </div>
+        </div>
+        
+        <script src="js/main.js"></script>   
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    </body>
+</html>
